@@ -7,7 +7,7 @@ import SoftwareDeveloper, { IBioDetails } from 'omotoshojoseph';
 
 export default class Bio extends SoftwareDeveloper {
   name     = 'Omotosho Joseph';
-  location = 'Enugu, Nigeria';
+  location = 'Lagos, Nigeria';
   
   getDetails(): IBioDetails {
     return {
